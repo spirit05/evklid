@@ -43,6 +43,7 @@ window.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
 
     e.currentTarget.classList.add("burger--hidden");
+    menu.classList.remove("header__nav-mobile--hidden");
     menu.classList.add("header__nav-mobile--visible");
   });
 
