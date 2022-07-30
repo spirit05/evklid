@@ -1,51 +1,51 @@
 @font-face {
 	font-family: 'Montserrat';
-	src: local('Montserrat-Regular'),
-		url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-		url('../fonts/Montserrat-Regular.woff') format('woff');
 	font-display: swap;
 	font-weight: 400;
 	font-style: normal;
+	src: local('Montserrat-Regular'),
+		url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+		url('../fonts/Montserrat-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Montserrat';
-	src: local('Montserrat-Medium'),
-		url('../fonts/Montserrat-Medium.woff2') format('woff2'),
-		url('../fonts/Montserrat-Medium.woff') format('woff');
 	font-display: swap;
 	font-weight: 500;
 	font-style: normal;
+	src: local('Montserrat-Medium'),
+		url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+		url('../fonts/Montserrat-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Montserrat';
-	src: local('Montserrat-SemiBold'),
-		url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
-		url('../fonts/Montserrat-SemiBold.woff') format('woff');
 	font-display: swap;
 	font-weight: 600;
 	font-style: normal;
+	src: local('Montserrat-SemiBold'),
+		url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+		url('../fonts/Montserrat-SemiBold.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Montserrat';
-	src: local('Montserrat-Bold'),
-		url('../fonts/Montserrat-Bold.woff2') format('woff2'),
-		url('../fonts/Montserrat-Bold.woff') format('woff');
 	font-display: swap;
 	font-weight: 700;
 	font-style: normal;
+	src: local('Montserrat-Bold'),
+		url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+		url('../fonts/Montserrat-Bold.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Montserrat';
-	src: local('Montserrat-ExtraBold'),
-		url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
-		url('../fonts/Montserrat-ExtraBold.woff') format('woff');
 	font-display: swap;
 	font-weight: 800;
 	font-style: normal;
+	src: local('Montserrat-ExtraBold'),
+		url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+		url('../fonts/Montserrat-ExtraBold.woff') format('woff');
 }
 
 html {
@@ -451,7 +451,7 @@ body {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../img/info-icon.svg");
+  background-image: url("../img/icons/info-icon.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -540,11 +540,11 @@ body {
 }
 
 .benefits_rigth__content--consalting {
-  background-image: url("../img/about-consult.svg");
+  background-image: url("../img/icons/about-consult.svg");
 }
 
 .benefits_rigth__content--quality {
-  background-image: url("../img/about-quality.svg");
+  background-image: url("../img/icons/about-quality.svg");
 }
 
 /* how */
@@ -1139,6 +1139,10 @@ body {
     padding: 11px 0;
   }
 
+  .hero-slide--1 {
+    background-image: url("../img/hero-1-1024.jpg");
+  }
+
   .header__nav-mobile {
     padding-left: 40px;
   }
@@ -1367,6 +1371,10 @@ body {
     height: 307px;
   }
 
+  .hero-slide--1 {
+    background-image: url("../img/hero-1-768.jpg");
+  }
+
   .section-offset,
   .footer {
     margin-top: 39px;
@@ -1547,6 +1555,18 @@ body {
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .hero-slide--1 {
+    background-image: url("../img/hero-1-320.jpg");
+  }
+
+  .hero-slide--2 {
+    background-image: url("../img/hero-2-320.jpg");
+  }
+
+  .hero-slide--3 {
+    background-image: url("../img/hero-3-320.jpg");
   }
 
   .section__title {
